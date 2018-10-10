@@ -22,6 +22,8 @@ Route::delete('articles/{article}', 'ArticleController@delete');
 
 Route::get('buildings', 'BuildingController@index');
 Route::get('buildings/{building}', 'BuildingController@show');
+Route::post('buildings', 'BuildingController@store');
 
 Route::get('users', 'UserController@index');
 Route::get('users/{user}', 'UserController@show');
+Route::post('users', 'UserController@store');
