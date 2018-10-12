@@ -2,9 +2,12 @@
 
 namespace App\Http\Controllers;
 
+use App\UserBuilding;
 use Illuminate\Http\Request;
 use App\Building;
 use App\User;
+use Illuminate\Support\Facades\DB;
+use Symfony\Component\VarDumper\VarDumper;
 
 class BuildingController extends Controller
 {
@@ -20,19 +23,18 @@ class BuildingController extends Controller
 
     public function store(Request $request)
     {
-        $user = User::find($request->user);
-        if (!$user) {
-            return response()->json([
-                'status' => 404,
-                'message' => 'user not found'
-            ], 404);
-        }
-        $building = Building::create([
-            'name' => $request->name,
-            'city' => $request->city,
-            'user' => $request->user
-        ]);
+        $building = User::create($request->all());
 
         return response()->json($building, 201);
+    }
+
+    public function getByUser(User $user)
+    {
+        $userBuildings = DB::table('user_buildings')->where('user', $user['id'])->get();
+        $buildings = [];
+        foreach ($userBuildings as $ub) {
+            array_push($buildings, Building::find($ub->building));
+        }
+        return response()->json($buildings, 200);
     }
 }

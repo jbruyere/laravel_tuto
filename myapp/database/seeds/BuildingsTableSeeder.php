@@ -16,14 +16,11 @@ class BuildingsTableSeeder extends Seeder
         //Building::truncate();
 
         $faker = \Faker\Factory::create();
-        $users = User::all();
 
-        $numberUser = count($users);
         for ($i = 0; $i < 10; $i++) {
             Building::create([
                 'name' => $faker->name,
                 'city' => $faker->city,
-                'user' => $users[random_int(0, $numberUser - 1)]['id'],
             ]);
         }
     }

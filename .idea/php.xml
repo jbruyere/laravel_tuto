@@ -74,11 +74,6 @@
       <path value="$PROJECT_DIR$/myapp/vendor/doctrine/inflector" />
       <path value="$PROJECT_DIR$/myapp/vendor/doctrine/instantiator" />
       <path value="$PROJECT_DIR$/myapp/vendor/filp/whoops" />
-      <path value="$PROJECT_DIR$/myapp/vendor/lcobucci/jwt" />
-      <path value="$PROJECT_DIR$/myapp/vendor/tymon/jwt-auth" />
-      <path value="$PROJECT_DIR$/myapp/vendor/namshi/jose" />
-      <path value="$PROJECT_DIR$/myapp/vendor/symfony/polyfill-php56" />
-      <path value="$PROJECT_DIR$/myapp/vendor/symfony/polyfill-util" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.1" />

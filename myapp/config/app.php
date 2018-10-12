@@ -173,8 +173,6 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
-        'Tymon\JWTAuth\Providers\JWTAuthServiceProvider'
-
     ],
 
     /*

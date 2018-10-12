@@ -21,12 +21,10 @@
       <excludeFolder url="file://$MODULE_DIR$/myapp/vendor/jakub-onderka/php-console-highlighter" />
       <excludeFolder url="file://$MODULE_DIR$/myapp/vendor/laravel/framework" />
       <excludeFolder url="file://$MODULE_DIR$/myapp/vendor/laravel/tinker" />
-      <excludeFolder url="file://$MODULE_DIR$/myapp/vendor/lcobucci/jwt" />
       <excludeFolder url="file://$MODULE_DIR$/myapp/vendor/league/flysystem" />
       <excludeFolder url="file://$MODULE_DIR$/myapp/vendor/mockery/mockery" />
       <excludeFolder url="file://$MODULE_DIR$/myapp/vendor/monolog/monolog" />
       <excludeFolder url="file://$MODULE_DIR$/myapp/vendor/myclabs/deep-copy" />
-      <excludeFolder url="file://$MODULE_DIR$/myapp/vendor/namshi/jose" />
       <excludeFolder url="file://$MODULE_DIR$/myapp/vendor/nesbot/carbon" />
       <excludeFolder url="file://$MODULE_DIR$/myapp/vendor/nikic/php-parser" />
       <excludeFolder url="file://$MODULE_DIR$/myapp/vendor/nunomaduro/collision" />
@@ -69,16 +67,13 @@
       <excludeFolder url="file://$MODULE_DIR$/myapp/vendor/symfony/http-kernel" />
       <excludeFolder url="file://$MODULE_DIR$/myapp/vendor/symfony/polyfill-ctype" />
       <excludeFolder url="file://$MODULE_DIR$/myapp/vendor/symfony/polyfill-mbstring" />
-      <excludeFolder url="file://$MODULE_DIR$/myapp/vendor/symfony/polyfill-php56" />
       <excludeFolder url="file://$MODULE_DIR$/myapp/vendor/symfony/polyfill-php72" />
-      <excludeFolder url="file://$MODULE_DIR$/myapp/vendor/symfony/polyfill-util" />
       <excludeFolder url="file://$MODULE_DIR$/myapp/vendor/symfony/process" />
       <excludeFolder url="file://$MODULE_DIR$/myapp/vendor/symfony/routing" />
       <excludeFolder url="file://$MODULE_DIR$/myapp/vendor/symfony/translation" />
       <excludeFolder url="file://$MODULE_DIR$/myapp/vendor/symfony/var-dumper" />
       <excludeFolder url="file://$MODULE_DIR$/myapp/vendor/theseer/tokenizer" />
       <excludeFolder url="file://$MODULE_DIR$/myapp/vendor/tijsverkoyen/css-to-inline-styles" />
-      <excludeFolder url="file://$MODULE_DIR$/myapp/vendor/tymon/jwt-auth" />
       <excludeFolder url="file://$MODULE_DIR$/myapp/vendor/vlucas/phpdotenv" />
       <excludeFolder url="file://$MODULE_DIR$/myapp/vendor/webmozart/assert" />
     </content>

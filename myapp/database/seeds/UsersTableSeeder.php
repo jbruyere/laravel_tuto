@@ -27,9 +27,4 @@ class UsersTableSeeder extends Seeder
             ]);
         }
     }
-
-    public function hashPassword($password)
-    {
-        return (Hash::make($password));
-    }
 }
